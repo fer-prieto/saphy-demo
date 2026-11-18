@@ -1,0 +1,346 @@
+/* Studio Saphy — hoja de estilos única.
+   Reglas: blanco y negro, una tipografía del sistema, sin webfonts,
+   sin sombras, sin radios, sin transiciones largas. */
+
+:root {
+	--negro: #111;
+	--gris: #767676;
+	--linea: #e4e4e4;
+	--blanco: #fff;
+
+	--fs-xl: clamp(2.25rem, 5.5vw, 4.5rem);
+	--fs-l: clamp(1.125rem, 1.8vw, 1.5rem);
+	--fs-m: 1rem;
+	--fs-s: 0.8125rem;
+	--fs-xs: 0.6875rem;
+
+	--margen: clamp(1.25rem, 5vw, 4rem);
+	--ancho: 1440px;
+}
+
+*,
+*::before,
+*::after { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+	margin: 0;
+	background: var(--blanco);
+	color: var(--negro);
+	font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: var(--fs-m);
+	line-height: 1.5;
+	font-weight: 400;
+	-webkit-font-smoothing: antialiased;
+}
+
+img { display: block; max-width: 100%; height: auto; }
+
+a { color: inherit; text-decoration: none; }
+
+:focus-visible {
+	outline: 2px solid var(--negro);
+	outline-offset: 3px;
+}
+
+.u-wrap {
+	max-width: var(--ancho);
+	margin: 0 auto;
+	padding: 0 var(--margen);
+}
+
+.u-label {
+	font-size: var(--fs-xs);
+	letter-spacing: 0.12em;
+	text-transform: uppercase;
+	color: var(--gris);
+}
+
+/* ---------- Header ---------- */
+
+.sitio-header {
+	position: sticky;
+	top: 0;
+	z-index: 10;
+	background: var(--blanco);
+	border-bottom: 1px solid var(--linea);
+}
+
+.sitio-header .u-wrap {
+	display: flex;
+	align-items: baseline;
+	justify-content: space-between;
+	gap: 1rem;
+	padding-top: 0.9rem;
+	padding-bottom: 0.9rem;
+}
+
+.logo {
+	font-size: var(--fs-s);
+	letter-spacing: 0.28em;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+.nav {
+	display: flex;
+	gap: clamp(1rem, 2.5vw, 2.25rem);
+}
+
+.nav a {
+	font-size: var(--fs-xs);
+	letter-spacing: 0.12em;
+	text-transform: uppercase;
+	color: var(--gris);
+	transition: color 120ms linear;
+}
+
+.nav a:hover,
+.nav a[aria-current="page"] { color: var(--negro); }
+
+/* ---------- Hero ---------- */
+
+.hero {
+	padding-top: clamp(3rem, 8vw, 6rem);
+	padding-bottom: clamp(2rem, 5vw, 3.5rem);
+}
+
+.hero h1 {
+	margin: 0;
+	font-size: var(--fs-xl);
+	font-weight: 400;
+	line-height: 1.02;
+	letter-spacing: -0.02em;
+}
+
+.hero p {
+	margin: 1rem 0 0;
+	max-width: 34ch;
+	font-size: var(--fs-l);
+	color: var(--gris);
+}
+
+.hero-img {
+	margin: 0;
+	padding: 0 var(--margen);
+}
+
+.hero-img img {
+	width: 100%;
+	max-width: var(--ancho);
+	margin: 0 auto;
+}
+
+/* ---------- Filtros ---------- */
+
+.filtros {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.25rem 1.5rem;
+	padding-top: clamp(2.5rem, 5vw, 4rem);
+	padding-bottom: 1.5rem;
+	border-bottom: 1px solid var(--linea);
+}
+
+.filtros button {
+	padding: 0;
+	border: 0;
+	background: none;
+	color: var(--gris);
+	font: inherit;
+	font-size: var(--fs-xs);
+	letter-spacing: 0.12em;
+	text-transform: uppercase;
+	cursor: pointer;
+	transition: color 120ms linear;
+}
+
+.filtros button:hover,
+.filtros button[aria-pressed="true"] { color: var(--negro); }
+
+/* ---------- Grilla ---------- */
+
+.grilla {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	column-gap: clamp(1rem, 3vw, 2.5rem);
+	row-gap: clamp(2rem, 4vw, 3.5rem);
+	padding-top: clamp(2rem, 4vw, 3rem);
+	padding-bottom: clamp(3rem, 6vw, 5rem);
+}
+
+.proyecto {
+	display: block;
+}
+
+.proyecto figure {
+	margin: 0;
+	overflow: hidden;
+	background: #f4f4f4;
+	aspect-ratio: 4 / 3;
+}
+
+.proyecto img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: opacity 150ms linear;
+}
+
+.proyecto:hover img { opacity: 0.88; }
+
+.proyecto figcaption {
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	gap: 1rem;
+	padding-top: 0.75rem;
+}
+
+.proyecto .nombre {
+	font-size: var(--fs-m);
+}
+
+.proyecto .categoria {
+	font-size: var(--fs-xs);
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	color: var(--gris);
+	white-space: nowrap;
+}
+
+/* ---------- Estudio ---------- */
+
+.estudio {
+	border-top: 1px solid var(--linea);
+	padding-top: clamp(2.5rem, 5vw, 4rem);
+	padding-bottom: clamp(2.5rem, 5vw, 4rem);
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	gap: clamp(1rem, 4vw, 4rem);
+	align-items: start;
+}
+
+.estudio h2 {
+	margin: 0;
+	font-size: var(--fs-xs);
+	letter-spacing: 0.12em;
+	text-transform: uppercase;
+	font-weight: 400;
+	color: var(--gris);
+}
+
+.estudio p {
+	margin: 0 0 1rem;
+	max-width: 60ch;
+	font-size: var(--fs-l);
+}
+
+/* ---------- Ficha de proyecto ---------- */
+
+.ficha {
+	padding-top: clamp(2.5rem, 5vw, 4rem);
+	padding-bottom: clamp(2rem, 4vw, 3rem);
+	display: grid;
+	grid-template-columns: 3fr 2fr;
+	gap: clamp(1.5rem, 4vw, 4rem);
+	align-items: start;
+}
+
+.ficha-txt h1 {
+	margin: 0 0 0.5rem;
+	font-size: clamp(1.75rem, 3.5vw, 2.75rem);
+	font-weight: 400;
+	line-height: 1.05;
+	letter-spacing: -0.01em;
+}
+
+.ficha-txt p {
+	margin: 1.25rem 0 0;
+	font-size: var(--fs-m);
+}
+
+.ficha figure {
+	margin: 0;
+}
+
+.ficha figure img { width: 100%; }
+
+.galeria {
+	padding-bottom: clamp(2rem, 4vw, 3rem);
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: clamp(1rem, 2vw, 1.75rem);
+	align-items: start;
+}
+
+.galeria figure { margin: 0; }
+
+/* Las imágenes grandes del portafolio ocupan las dos columnas */
+.galeria figure.ancha { grid-column: 1 / -1; }
+
+.galeria img { width: 100%; height: auto; }
+
+.paso {
+	display: flex;
+	justify-content: space-between;
+	gap: 1rem;
+	padding: 1.5rem 0;
+	border-top: 1px solid var(--linea);
+	font-size: var(--fs-xs);
+	letter-spacing: 0.12em;
+	text-transform: uppercase;
+}
+
+.paso a { color: var(--gris); transition: color 120ms linear; }
+.paso a:hover { color: var(--negro); }
+
+/* ---------- Footer ---------- */
+
+.sitio-footer {
+	border-top: 1px solid var(--linea);
+	padding-top: clamp(2.5rem, 5vw, 4rem);
+	padding-bottom: clamp(2rem, 4vw, 3rem);
+}
+
+.sitio-footer .contacto {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 1.5rem;
+	padding-bottom: 2.5rem;
+}
+
+.sitio-footer .contacto > div > span {
+	display: block;
+	padding-bottom: 0.35rem;
+}
+
+.sitio-footer a { border-bottom: 1px solid var(--linea); }
+.sitio-footer a:hover { border-bottom-color: var(--negro); }
+
+.legal {
+	display: flex;
+	justify-content: space-between;
+	gap: 1rem;
+	font-size: var(--fs-xs);
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	color: var(--gris);
+}
+
+/* ---------- Móvil ---------- */
+
+@media (max-width: 760px) {
+	.grilla,
+	.galeria { grid-template-columns: 1fr; }
+	.estudio,
+	.ficha,
+	.sitio-footer .contacto { grid-template-columns: 1fr; }
+	.ficha .ficha-img { order: -1; }
+	.legal { flex-direction: column; gap: 0.35rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+	* { transition: none !important; }
+}

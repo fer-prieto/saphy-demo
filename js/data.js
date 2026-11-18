@@ -1,0 +1,332 @@
+window.PROJECTS = [
+  {
+    "slug": "ccoricancha",
+    "nombre": "Vivienda Ccoricancha",
+    "categoria": "Vivienda",
+    "descripcion": "Esta casa nace inspirada en la arquitectura tradicional cusqueña, pensada como un refugio familiar lejos del ritmo de la ciudad. Un lugar donde el fuego de la fogata acompaña y abriga las noches frías de Ccoricancha, invitando al encuentro y a la calma. Sus espacios se abren con naturalidad, dando forma a una sala de usos múltiples flexible y viva, donde las ideas florecen, las",
+    "portada": "assets/img/ccoricancha/ccoricancha-02-1280.webp",
+    "portada640": "assets/img/ccoricancha/ccoricancha-02-640.webp",
+    "portada_w": 761,
+    "portada_h": 398,
+    "imagenes": [
+      {
+        "src": "assets/img/ccoricancha/ccoricancha-01-1280.webp",
+        "src640": "assets/img/ccoricancha/ccoricancha-01-640.webp",
+        "w": 641,
+        "h": 736
+      },
+      {
+        "src": "assets/img/ccoricancha/ccoricancha-02-1280.webp",
+        "src640": "assets/img/ccoricancha/ccoricancha-02-640.webp",
+        "w": 761,
+        "h": 398
+      },
+      {
+        "src": "assets/img/ccoricancha/ccoricancha-03-1280.webp",
+        "src640": "assets/img/ccoricancha/ccoricancha-03-640.webp",
+        "w": 762,
+        "h": 298
+      },
+      {
+        "src": "assets/img/ccoricancha/ccoricancha-04-1280.webp",
+        "src640": "assets/img/ccoricancha/ccoricancha-04-640.webp",
+        "w": 619,
+        "h": 736
+      }
+    ]
+  },
+  {
+    "slug": "willka-wasi",
+    "nombre": "Willka Wasi",
+    "categoria": "Vivienda",
+    "descripcion": "Esta casa de adobe en Maras se posa con calma frente al nevado Chicón, dialogando con el paisaje andino. Su sala, abierta a través de un amplio plano vidriado, enmarca las vistas al valle de Maras y permite que la luz y el entorno ingresen al interior. El adobe, junto a los pequeños detalles cuidadosamente pensados, envuelve la vivienda en una sensación constante de calidez, haciendo de cada espacio un refugio íntimo y sereno.",
+    "portada": "assets/img/willka-wasi/willka-wasi-01-1280.webp",
+    "portada640": "assets/img/willka-wasi/willka-wasi-01-640.webp",
+    "portada_w": 1280,
+    "portada_h": 682,
+    "imagenes": [
+      {
+        "src": "assets/img/willka-wasi/willka-wasi-01-1280.webp",
+        "src640": "assets/img/willka-wasi/willka-wasi-01-640.webp",
+        "w": 1280,
+        "h": 682
+      },
+      {
+        "src": "assets/img/willka-wasi/willka-wasi-02-1280.webp",
+        "src640": "assets/img/willka-wasi/willka-wasi-02-640.webp",
+        "w": 384,
+        "h": 682
+      },
+      {
+        "src": "assets/img/willka-wasi/willka-wasi-03-1280.webp",
+        "src640": "assets/img/willka-wasi/willka-wasi-03-640.webp",
+        "w": 384,
+        "h": 682
+      }
+    ]
+  },
+  {
+    "slug": "casa-pacha",
+    "nombre": "Casa Pacha",
+    "categoria": "Vivienda",
+    "descripcion": "Esta vivienda de un solo nivel reinterpreta la arquitectura tradicional de la zona a través del uso del adobe como material principal, combinándolo con una estructura de acero y amplias aperturas de vidrio. El proyecto busca un equilibrio entre lo ancestral y lo contemporáneo, permitiendo que la luz y el paisaje ingresen al interior sin perder la calidez y solidez que aporta la tierra. Cada detalle ha sido pensado para resaltar la materialidad, generando un espacio sereno, honesto y profundamente conectado con su entorno.",
+    "portada": "assets/img/casa-pacha/casa-pacha-03-1280.webp",
+    "portada640": "assets/img/casa-pacha/casa-pacha-03-640.webp",
+    "portada_w": 1280,
+    "portada_h": 616,
+    "imagenes": [
+      {
+        "src": "assets/img/casa-pacha/casa-pacha-01-1280.webp",
+        "src640": "assets/img/casa-pacha/casa-pacha-01-640.webp",
+        "w": 671,
+        "h": 498
+      },
+      {
+        "src": "assets/img/casa-pacha/casa-pacha-02-1280.webp",
+        "src640": "assets/img/casa-pacha/casa-pacha-02-640.webp",
+        "w": 663,
+        "h": 498
+      },
+      {
+        "src": "assets/img/casa-pacha/casa-pacha-03-1280.webp",
+        "src640": "assets/img/casa-pacha/casa-pacha-03-640.webp",
+        "w": 1280,
+        "h": 616
+      }
+    ]
+  },
+  {
+    "slug": "kimsa",
+    "nombre": "Kimsa",
+    "categoria": "Vivienda",
+    "descripcion": "Estos bungalows se insertan en una propuesta paisajística en andenería que dialoga con la topografía del lugar. El proyecto está compuesto por tres cabañas ubicadas en un mismo nivel, conectadas entre sí por un piso deck que articula los recorridos y espacios comunes. La andenería no solo estructura el paisaje, sino que enmarca la arquitectura, generando una experiencia de permanencia y contemplación donde el diseño acompaña al terreno y potencia la relación con el entorno natural.",
+    "portada": "assets/img/kimsa/kimsa-03-1280.webp",
+    "portada640": "assets/img/kimsa/kimsa-03-640.webp",
+    "portada_w": 1280,
+    "portada_h": 720,
+    "imagenes": [
+      {
+        "src": "assets/img/kimsa/kimsa-01-1280.webp",
+        "src640": "assets/img/kimsa/kimsa-01-640.webp",
+        "w": 742,
+        "h": 440
+      },
+      {
+        "src": "assets/img/kimsa/kimsa-02-1280.webp",
+        "src640": "assets/img/kimsa/kimsa-02-640.webp",
+        "w": 742,
+        "h": 302
+      },
+      {
+        "src": "assets/img/kimsa/kimsa-03-1280.webp",
+        "src640": "assets/img/kimsa/kimsa-03-640.webp",
+        "w": 1280,
+        "h": 720
+      }
+    ]
+  },
+  {
+    "slug": "cabana-antara",
+    "nombre": "Cabañas Antara",
+    "categoria": "Vivienda",
+    "descripcion": "Las cabañas Antara ofrecen una conexión cercana con la naturaleza, en donde las áreas exteriores son fundamentales para brindar confort en la experiencia del usuario. Elementos como área de fogata y parrillas ofrecen a los huéspedes una experiencia única en el distrito de Chinchero. Cada detalle desde el ingreso hasta el diseño de interiores ha sido cuidadosamente seleccionado para una experiencia maravillosa.",
+    "portada": "assets/img/cabana-antara/cabana-antara-02-1280.webp",
+    "portada640": "assets/img/cabana-antara/cabana-antara-02-640.webp",
+    "portada_w": 1280,
+    "portada_h": 642,
+    "imagenes": [
+      {
+        "src": "assets/img/cabana-antara/cabana-antara-01-1280.webp",
+        "src640": "assets/img/cabana-antara/cabana-antara-01-640.webp",
+        "w": 663,
+        "h": 496
+      },
+      {
+        "src": "assets/img/cabana-antara/cabana-antara-02-1280.webp",
+        "src640": "assets/img/cabana-antara/cabana-antara-02-640.webp",
+        "w": 1280,
+        "h": 642
+      },
+      {
+        "src": "assets/img/cabana-antara/cabana-antara-03-1280.webp",
+        "src640": "assets/img/cabana-antara/cabana-antara-03-640.webp",
+        "w": 604,
+        "h": 498
+      }
+    ]
+  },
+  {
+    "slug": "airbnb-la-florida",
+    "nombre": "Airbnb La Florida",
+    "categoria": "Interiorismo",
+    "descripcion": "Este espacio ha sido cuidadosamente diseñado para que la experiencia de los huéspedes en Cusco comience desde el momento que lleguen. Cada rincón refleja la rica historia y la belleza única de la ciudad. Los tonos tierra y los toques de colores vibrantes, inspirados en los tradicionales telares cusqueños, crean una atmósfera acogedora y auténtica.",
+    "portada": "assets/img/airbnb-la-florida/airbnb-la-florida-02-1280.webp",
+    "portada640": "assets/img/airbnb-la-florida/airbnb-la-florida-02-640.webp",
+    "portada_w": 685,
+    "portada_h": 520,
+    "imagenes": [
+      {
+        "src": "assets/img/airbnb-la-florida/airbnb-la-florida-01-1280.webp",
+        "src640": "assets/img/airbnb-la-florida/airbnb-la-florida-01-640.webp",
+        "w": 663,
+        "h": 1352
+      },
+      {
+        "src": "assets/img/airbnb-la-florida/airbnb-la-florida-02-1280.webp",
+        "src640": "assets/img/airbnb-la-florida/airbnb-la-florida-02-640.webp",
+        "w": 685,
+        "h": 520
+      },
+      {
+        "src": "assets/img/airbnb-la-florida/airbnb-la-florida-03-1280.webp",
+        "src640": "assets/img/airbnb-la-florida/airbnb-la-florida-03-640.webp",
+        "w": 686,
+        "h": 718
+      }
+    ]
+  },
+  {
+    "slug": "residencias-alpinas",
+    "nombre": "Residencias Alpinas",
+    "categoria": "Paisajismo",
+    "descripcion": "Proyecto campestre desarrollado bajo la conceptualización de viviendas alpinas en los valles de Cusco, Perú. Ubicada en el impresionante paisaje del Valle de Cusco, esta vivienda suspendida está diseñada para una familia pequeña, combinando innovación arquitectónica con el respeto por el entorno natural. Elevada sobre pilotes, la estructura minimiza su impacto en el terreno, preservando la vegetación y el suelo circundante.",
+    "portada": "assets/img/residencias-alpinas/residencias-alpinas-04-1280.webp",
+    "portada640": "assets/img/residencias-alpinas/residencias-alpinas-04-640.webp",
+    "portada_w": 1236,
+    "portada_h": 792,
+    "imagenes": [
+      {
+        "src": "assets/img/residencias-alpinas/residencias-alpinas-01-1280.webp",
+        "src640": "assets/img/residencias-alpinas/residencias-alpinas-01-640.webp",
+        "w": 756,
+        "h": 360
+      },
+      {
+        "src": "assets/img/residencias-alpinas/residencias-alpinas-02-1280.webp",
+        "src640": "assets/img/residencias-alpinas/residencias-alpinas-02-640.webp",
+        "w": 1280,
+        "h": 746
+      },
+      {
+        "src": "assets/img/residencias-alpinas/residencias-alpinas-03-1280.webp",
+        "src640": "assets/img/residencias-alpinas/residencias-alpinas-03-640.webp",
+        "w": 756,
+        "h": 368
+      },
+      {
+        "src": "assets/img/residencias-alpinas/residencias-alpinas-04-1280.webp",
+        "src640": "assets/img/residencias-alpinas/residencias-alpinas-04-640.webp",
+        "w": 1236,
+        "h": 792
+      },
+      {
+        "src": "assets/img/residencias-alpinas/residencias-alpinas-05-1280.webp",
+        "src640": "assets/img/residencias-alpinas/residencias-alpinas-05-640.webp",
+        "w": 902,
+        "h": 570
+      }
+    ]
+  },
+  {
+    "slug": "parque-urbano",
+    "nombre": "Parque Urbano",
+    "categoria": "Parques & Condominios",
+    "descripcion": "Propuesta de implementación en parque urbano.",
+    "portada": "assets/img/parque-urbano/parque-urbano-03-1280.webp",
+    "portada640": "assets/img/parque-urbano/parque-urbano-03-640.webp",
+    "portada_w": 1280,
+    "portada_h": 720,
+    "imagenes": [
+      {
+        "src": "assets/img/parque-urbano/parque-urbano-01-1280.webp",
+        "src640": "assets/img/parque-urbano/parque-urbano-01-640.webp",
+        "w": 549,
+        "h": 362
+      },
+      {
+        "src": "assets/img/parque-urbano/parque-urbano-02-1280.webp",
+        "src640": "assets/img/parque-urbano/parque-urbano-02-640.webp",
+        "w": 545,
+        "h": 370
+      },
+      {
+        "src": "assets/img/parque-urbano/parque-urbano-03-1280.webp",
+        "src640": "assets/img/parque-urbano/parque-urbano-03-640.webp",
+        "w": 1280,
+        "h": 720
+      }
+    ]
+  },
+  {
+    "slug": "centro-deportes-aventura",
+    "nombre": "Centro de Deportes de Aventura",
+    "categoria": "Parques & Condominios",
+    "descripcion": "Este proyecto de Centro de Deporte de Aventura, ubicado en la ciudad de Calca, en el Valle Sagrado de los Incas, es un ejemplo sobresaliente de arquitectura sostenible que respeta y se integra con el entorno natural y cultural. Utilizando materiales locales como adobe, teja andina y acabados naturales, el centro combina tradición con innovación para ofrecer una experiencia única a los amantes del deporte y la aventura. Además, se han desarrollado tiendas deportivas con acabados de piedra, inspiradas en las construcciones incas. Estas tiendas no solo proporcionan un espacio funcional para la venta de equipo deportivo, sino que también reflejan el patrimonio cultural de la región, creando una conexión tangible con la historia y la tradición local.",
+    "portada": "assets/img/centro-deportes-aventura/centro-deportes-aventura-02-1280.webp",
+    "portada640": "assets/img/centro-deportes-aventura/centro-deportes-aventura-02-640.webp",
+    "portada_w": 1180,
+    "portada_h": 858,
+    "imagenes": [
+      {
+        "src": "assets/img/centro-deportes-aventura/centro-deportes-aventura-01-1280.webp",
+        "src640": "assets/img/centro-deportes-aventura/centro-deportes-aventura-01-640.webp",
+        "w": 1170,
+        "h": 572
+      },
+      {
+        "src": "assets/img/centro-deportes-aventura/centro-deportes-aventura-02-1280.webp",
+        "src640": "assets/img/centro-deportes-aventura/centro-deportes-aventura-02-640.webp",
+        "w": 1180,
+        "h": 858
+      },
+      {
+        "src": "assets/img/centro-deportes-aventura/centro-deportes-aventura-03-1280.webp",
+        "src640": "assets/img/centro-deportes-aventura/centro-deportes-aventura-03-640.webp",
+        "w": 833,
+        "h": 322
+      },
+      {
+        "src": "assets/img/centro-deportes-aventura/centro-deportes-aventura-04-1280.webp",
+        "src640": "assets/img/centro-deportes-aventura/centro-deportes-aventura-04-640.webp",
+        "w": 832,
+        "h": 316
+      },
+      {
+        "src": "assets/img/centro-deportes-aventura/centro-deportes-aventura-05-1280.webp",
+        "src640": "assets/img/centro-deportes-aventura/centro-deportes-aventura-05-640.webp",
+        "w": 1243,
+        "h": 814
+      }
+    ]
+  },
+  {
+    "slug": "club-campestre-aronna",
+    "nombre": "Club Campestre Aronna",
+    "categoria": "Parques & Condominios",
+    "descripcion": "El diseño del Club Campestre Aronna está dirigido a un público joven que desee un escape a la naturaleza. Con una vista única a la laguna de Huaypo, el diseño de este Club ofrece espacios públicos para los propietarios en donde puedan conectar e integrarse en comunidad. Cada área fue diseñada inspirada en los materiales y vegetación presente de la zona.",
+    "portada": "assets/img/club-campestre-aronna/club-campestre-aronna-01-1280.webp",
+    "portada640": "assets/img/club-campestre-aronna/club-campestre-aronna-01-640.webp",
+    "portada_w": 1241,
+    "portada_h": 742,
+    "imagenes": [
+      {
+        "src": "assets/img/club-campestre-aronna/club-campestre-aronna-01-1280.webp",
+        "src640": "assets/img/club-campestre-aronna/club-campestre-aronna-01-640.webp",
+        "w": 1241,
+        "h": 742
+      },
+      {
+        "src": "assets/img/club-campestre-aronna/club-campestre-aronna-02-1280.webp",
+        "src640": "assets/img/club-campestre-aronna/club-campestre-aronna-02-640.webp",
+        "w": 832,
+        "h": 324
+      },
+      {
+        "src": "assets/img/club-campestre-aronna/club-campestre-aronna-03-1280.webp",
+        "src640": "assets/img/club-campestre-aronna/club-campestre-aronna-03-640.webp",
+        "w": 833,
+        "h": 440
+      }
+    ]
+  }
+];
